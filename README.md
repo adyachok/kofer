@@ -31,15 +31,17 @@ If you would like to use monorepo, follow next commands:
 1. Clone Kofer repository
 2. **cd** into kofer and clone submodules
    
-    
-    git submodule add https://github.com/adyachok/kofer-web-api.git kofer-web-api
-    git submodule add https://github.com/adyachok/kofer-scanner.git kofer-scanner
-    git submodule add https://github.com/adyachok/kofer-trinkets.git kofer-trinkets
-    git submodule add https://github.com/adyachok/kofer-monitor.git kofer-monitor
-    git submodule add https://github.com/adyachok/kofer-fas.git kofer-fas
-    git submodule add https://github.com/adyachok/kofer-facade.git kofer-facade
-    git submodule add https://github.com/adyachok/kofer-ds-artifacts.git kofer-ds-artifacts
-    git submodule add https://github.com/adyachok/kofer-compute.git kofer-compute
+```bash
+git submodule add https://github.com/adyachok/kofer-web-api.git kofer-web-api
+git submodule add https://github.com/adyachok/kofer-scanner.git kofer-scanner
+git submodule add https://github.com/adyachok/kofer-trinkets.git kofer-trinkets
+git submodule add https://github.com/adyachok/kofer-monitor.git kofer-monitor
+git submodule add https://github.com/adyachok/kofer-fas.git kofer-fas
+git submodule add https://github.com/adyachok/kofer-facade.git kofer-facade
+git submodule add https://github.com/adyachok/kofer-ds-artifacts.git kofer-ds-artifacts
+git submodule add https://github.com/adyachok/kofer-compute.git kofer-compute
+```    
+
     
 
 
