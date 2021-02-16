@@ -23,6 +23,26 @@ Every service has it's own documentation stored in own folder.
 
 Small front end application implemented also.
 
+
+### How to add submodules
+You can clone and setup every Kofer project alone or use monorepo.
+If you would like to use monorepo, follow next commands:
+
+1. Clone Kofer repository
+2. **cd** into kofer and clone submodules
+   
+    
+    git submodule add https://github.com/adyachok/kofer-web-api.git kofer-web-api
+    git submodule add https://github.com/adyachok/kofer-scanner.git kofer-scanner
+    git submodule add https://github.com/adyachok/kofer-trinkets.git kofer-trinkets
+    git submodule add https://github.com/adyachok/kofer-monitor.git kofer-monitor
+    git submodule add https://github.com/adyachok/kofer-fas.git kofer-fas
+    git submodule add https://github.com/adyachok/kofer-facade.git kofer-facade
+    git submodule add https://github.com/adyachok/kofer-ds-artifacts.git kofer-ds-artifacts
+    git submodule add https://github.com/adyachok/kofer-compute.git kofer-compute
+    
+
+
 ### Mode information
 More information you can get from the presentation attached to this repository.
   

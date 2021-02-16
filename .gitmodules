@@ -1,0 +1,3 @@
+[submodule "kofer-web-api"]
+	path = kofer-web-api
+	url = https://github.com/adyachok/kofer-web-api.git
